@@ -1,0 +1,1297 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "state": {
+      "type": "object",
+      "properties": {
+        "total": {
+          "type": "integer"
+        },
+        "used": {
+          "type": "integer"
+        },
+        "queued": {
+          "type": "integer"
+        },
+        "pending": {
+          "type": "integer"
+        },
+        "warmReady": {
+          "type": "integer"
+        },
+        "warmTotal": {
+          "type": "integer"
+        },
+        "hotReady": {
+          "type": "integer"
+        },
+        "hotTotal": {
+          "type": "integer"
+        },
+        "warmSlots": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "browser": {
+                  "type": "string"
+                },
+                "protocol": {
+                  "type": "string"
+                },
+                "pool": {
+                  "type": "string"
+                },
+                "reservedBy": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "browser",
+                "protocol",
+                "pool",
+                "reservedBy"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "browser": {
+                  "type": "string"
+                },
+                "protocol": {
+                  "type": "string"
+                },
+                "pool": {
+                  "type": "string"
+                },
+                "reservedBy": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "browser",
+                "protocol",
+                "pool",
+                "reservedBy"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "browser": {
+                  "type": "string"
+                },
+                "protocol": {
+                  "type": "string"
+                },
+                "pool": {
+                  "type": "string"
+                },
+                "reservedBy": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "browser",
+                "protocol",
+                "pool",
+                "reservedBy"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "browser": {
+                  "type": "string"
+                },
+                "protocol": {
+                  "type": "string"
+                },
+                "pool": {
+                  "type": "string"
+                },
+                "reservedBy": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "browser",
+                "protocol",
+                "pool",
+                "reservedBy"
+              ]
+            }
+          ]
+        },
+        "hotSlots": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "browser": {
+                  "type": "string"
+                },
+                "protocol": {
+                  "type": "string"
+                },
+                "pool": {
+                  "type": "string"
+                },
+                "reservedBy": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "browser",
+                "protocol",
+                "pool",
+                "reservedBy"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "browser": {
+                  "type": "string"
+                },
+                "protocol": {
+                  "type": "string"
+                },
+                "pool": {
+                  "type": "string"
+                },
+                "reservedBy": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "browser",
+                "protocol",
+                "pool",
+                "reservedBy"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "browser": {
+                  "type": "string"
+                },
+                "protocol": {
+                  "type": "string"
+                },
+                "pool": {
+                  "type": "string"
+                },
+                "reservedBy": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "browser",
+                "protocol",
+                "pool",
+                "reservedBy"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "browser": {
+                  "type": "string"
+                },
+                "protocol": {
+                  "type": "string"
+                },
+                "pool": {
+                  "type": "string"
+                },
+                "reservedBy": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "browser",
+                "protocol",
+                "pool",
+                "reservedBy"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "browser": {
+                  "type": "string"
+                },
+                "protocol": {
+                  "type": "string"
+                },
+                "pool": {
+                  "type": "string"
+                },
+                "reservedBy": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "browser",
+                "protocol",
+                "pool",
+                "reservedBy"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "browser": {
+                  "type": "string"
+                },
+                "protocol": {
+                  "type": "string"
+                },
+                "pool": {
+                  "type": "string"
+                },
+                "reservedBy": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "browser",
+                "protocol",
+                "pool",
+                "reservedBy"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "browser": {
+                  "type": "string"
+                },
+                "protocol": {
+                  "type": "string"
+                },
+                "pool": {
+                  "type": "string"
+                },
+                "reservedBy": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "browser",
+                "protocol",
+                "pool",
+                "reservedBy"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "browser": {
+                  "type": "string"
+                },
+                "protocol": {
+                  "type": "string"
+                },
+                "pool": {
+                  "type": "string"
+                },
+                "reservedBy": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "id",
+                "browser",
+                "protocol",
+                "pool",
+                "reservedBy"
+              ]
+            }
+          ]
+        },
+        "browsers": {
+          "type": "object",
+          "properties": {
+            "android": {
+              "type": "object",
+              "properties": {
+                "10.0": {
+                  "type": "object"
+                },
+                "11.0": {
+                  "type": "object"
+                },
+                "12.0": {
+                  "type": "object"
+                },
+                "13.0": {
+                  "type": "object"
+                },
+                "14.0": {
+                  "type": "object"
+                },
+                "15.0": {
+                  "type": "object"
+                },
+                "16.0": {
+                  "type": "object"
+                },
+                "5.1": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "10.0",
+                "11.0",
+                "12.0",
+                "13.0",
+                "14.0",
+                "15.0",
+                "16.0",
+                "5.1"
+              ]
+            },
+            "chrome": {
+              "type": "object",
+              "properties": {
+                "148.0": {
+                  "type": "object"
+                },
+                "148.0-min": {
+                  "type": "object"
+                },
+                "151.0": {
+                  "type": "object"
+                },
+                "151.0-min": {
+                  "type": "object"
+                },
+                "152.0": {
+                  "type": "object"
+                },
+                "152.0-min": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "148.0",
+                "148.0-min",
+                "151.0",
+                "151.0-min",
+                "152.0",
+                "152.0-min"
+              ]
+            },
+            "firefox": {
+              "type": "object",
+              "properties": {
+                "153.0": {
+                  "type": "object"
+                },
+                "153.0-min": {
+                  "type": "object"
+                },
+                "154.0": {
+                  "type": "object"
+                },
+                "154.0-min": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "153.0",
+                "153.0-min",
+                "154.0",
+                "154.0-min"
+              ]
+            },
+            "msedge": {
+              "type": "object",
+              "properties": {
+                "150.0": {
+                  "type": "object"
+                },
+                "150.0-min": {
+                  "type": "object"
+                },
+                "151.0": {
+                  "type": "object"
+                },
+                "151.0-min": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "150.0",
+                "150.0-min",
+                "151.0",
+                "151.0-min"
+              ]
+            },
+            "playwright-chrome": {
+              "type": "object",
+              "properties": {
+                "1.60.0": {
+                  "type": "object"
+                },
+                "1.61.0": {
+                  "type": "object"
+                },
+                "1.61.1": {
+                  "type": "object"
+                },
+                "1.62.1": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "1.60.0",
+                "1.61.0",
+                "1.61.1",
+                "1.62.1"
+              ]
+            },
+            "playwright-chromium": {
+              "type": "object",
+              "properties": {
+                "1.60.0": {
+                  "type": "object"
+                },
+                "1.60.0-min": {
+                  "type": "object"
+                },
+                "1.61.0": {
+                  "type": "object"
+                },
+                "1.61.1": {
+                  "type": "object"
+                },
+                "1.61.1-min": {
+                  "type": "object"
+                },
+                "1.62.1": {
+                  "type": "object"
+                },
+                "1.62.1-min": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "1.60.0",
+                "1.60.0-min",
+                "1.61.0",
+                "1.61.1",
+                "1.61.1-min",
+                "1.62.1",
+                "1.62.1-min"
+              ]
+            },
+            "playwright-firefox": {
+              "type": "object",
+              "properties": {
+                "1.60.0": {
+                  "type": "object"
+                },
+                "1.61.0": {
+                  "type": "object"
+                },
+                "1.61.1": {
+                  "type": "object"
+                },
+                "1.62.1": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "1.60.0",
+                "1.61.0",
+                "1.61.1",
+                "1.62.1"
+              ]
+            },
+            "playwright-msedge": {
+              "type": "object",
+              "properties": {
+                "1.60.0": {
+                  "type": "object"
+                },
+                "1.61.0": {
+                  "type": "object"
+                },
+                "1.61.1": {
+                  "type": "object"
+                },
+                "1.62.1": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "1.60.0",
+                "1.61.0",
+                "1.61.1",
+                "1.62.1"
+              ]
+            },
+            "playwright-webkit": {
+              "type": "object",
+              "properties": {
+                "1.60.0": {
+                  "type": "object"
+                },
+                "1.61.0": {
+                  "type": "object"
+                },
+                "1.61.1": {
+                  "type": "object"
+                },
+                "1.62.1": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "1.60.0",
+                "1.61.0",
+                "1.61.1",
+                "1.62.1"
+              ]
+            }
+          },
+          "required": [
+            "android",
+            "chrome",
+            "firefox",
+            "msedge",
+            "playwright-chrome",
+            "playwright-chromium",
+            "playwright-firefox",
+            "playwright-msedge",
+            "playwright-webkit"
+          ]
+        },
+        "videos": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "total",
+        "used",
+        "queued",
+        "pending",
+        "warmReady",
+        "warmTotal",
+        "hotReady",
+        "hotTotal",
+        "warmSlots",
+        "hotSlots",
+        "browsers",
+        "videos"
+      ]
+    },
+    "origin": {
+      "type": "string"
+    },
+    "browsers": {
+      "type": "object",
+      "properties": {
+        "android": {
+          "type": "integer"
+        },
+        "chrome": {
+          "type": "integer"
+        },
+        "firefox": {
+          "type": "integer"
+        },
+        "msedge": {
+          "type": "integer"
+        },
+        "playwright-chrome": {
+          "type": "integer"
+        },
+        "playwright-chromium": {
+          "type": "integer"
+        },
+        "playwright-firefox": {
+          "type": "integer"
+        },
+        "playwright-msedge": {
+          "type": "integer"
+        },
+        "playwright-webkit": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "android",
+        "chrome",
+        "firefox",
+        "msedge",
+        "playwright-chrome",
+        "playwright-chromium",
+        "playwright-firefox",
+        "playwright-msedge",
+        "playwright-webkit"
+      ]
+    },
+    "sessions": {
+      "type": "object"
+    },
+    "browserProtocols": {
+      "type": "object",
+      "properties": {
+        "android": {
+          "type": "object",
+          "properties": {
+            "10.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "11.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "12.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "13.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "14.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "15.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "16.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "5.1": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            }
+          },
+          "required": [
+            "10.0",
+            "11.0",
+            "12.0",
+            "13.0",
+            "14.0",
+            "15.0",
+            "16.0",
+            "5.1"
+          ]
+        },
+        "chrome": {
+          "type": "object",
+          "properties": {
+            "151.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "151.0-min": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "152.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "152.0-min": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            }
+          },
+          "required": [
+            "151.0",
+            "151.0-min",
+            "152.0",
+            "152.0-min"
+          ]
+        },
+        "firefox": {
+          "type": "object",
+          "properties": {
+            "153.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "153.0-min": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "154.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "154.0-min": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            }
+          },
+          "required": [
+            "153.0",
+            "153.0-min",
+            "154.0",
+            "154.0-min"
+          ]
+        },
+        "msedge": {
+          "type": "object",
+          "properties": {
+            "150.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "150.0-min": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "151.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "151.0-min": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            }
+          },
+          "required": [
+            "150.0",
+            "150.0-min",
+            "151.0",
+            "151.0-min"
+          ]
+        },
+        "playwright-chrome": {
+          "type": "object",
+          "properties": {
+            "1.60.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.61.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.61.1": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.62.1": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            }
+          },
+          "required": [
+            "1.60.0",
+            "1.61.0",
+            "1.61.1",
+            "1.62.1"
+          ]
+        },
+        "playwright-chromium": {
+          "type": "object",
+          "properties": {
+            "1.60.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.60.0-min": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.61.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.61.1": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.61.1-min": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.62.1": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.62.1-min": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            }
+          },
+          "required": [
+            "1.60.0",
+            "1.60.0-min",
+            "1.61.0",
+            "1.61.1",
+            "1.61.1-min",
+            "1.62.1",
+            "1.62.1-min"
+          ]
+        },
+        "playwright-firefox": {
+          "type": "object",
+          "properties": {
+            "1.60.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.61.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.61.1": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.62.1": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            }
+          },
+          "required": [
+            "1.60.0",
+            "1.61.0",
+            "1.61.1",
+            "1.62.1"
+          ]
+        },
+        "playwright-msedge": {
+          "type": "object",
+          "properties": {
+            "1.60.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.61.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.61.1": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.62.1": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            }
+          },
+          "required": [
+            "1.60.0",
+            "1.61.0",
+            "1.61.1",
+            "1.62.1"
+          ]
+        },
+        "playwright-webkit": {
+          "type": "object",
+          "properties": {
+            "1.60.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.61.0": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.61.1": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            },
+            "1.62.1": {
+              "type": "object",
+              "properties": {
+                "protocol": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "protocol"
+              ]
+            }
+          },
+          "required": [
+            "1.60.0",
+            "1.61.0",
+            "1.61.1",
+            "1.62.1"
+          ]
+        }
+      },
+      "required": [
+        "android",
+        "chrome",
+        "firefox",
+        "msedge",
+        "playwright-chrome",
+        "playwright-chromium",
+        "playwright-firefox",
+        "playwright-msedge",
+        "playwright-webkit"
+      ]
+    }
+  },
+  "required": [
+    "state",
+    "origin",
+    "browsers",
+    "sessions",
+    "browserProtocols"
+  ]
+}
