@@ -8,20 +8,6 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 import static org.hamcrest.Matchers.*;
 
 public class StatusTests {
-    /*
-    1. Make request to https://selenoid.qa.guru/ui/status
-    2. Get response "state": {
-        "total": 25,
-        "used": 0,
-        "queued": 0,
-        "pending": 0,
-        "warmReady": 4,
-        "warmTotal": 4,
-        "hotReady": 7,
-        "hotTotal": 8,
-        "warmSlots": }
-    3. Check total is 25
-     */
     @Test
     public void totalAmountTest() {
         get("https://selenoid.qa.guru/ui/status")
